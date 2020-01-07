@@ -9,10 +9,10 @@ public class TheLargestElement {
         int temp = 0;
         do {
             num = scanner.nextInt();
-            if(temp < num) {
+            if (temp < num) {
                 temp = num;
             }
-        } while( num != 0 );
+        } while (num != 0);
         System.out.println(temp);
     }
 }
