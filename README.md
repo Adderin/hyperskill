@@ -3,7 +3,7 @@ However, I forgot to initialize the readme, so some problems will be omitted.
 ***
 ## **Wave 1**
 
-#### **Branching statements → The sequence**
+#### **Branching statements → Bus tour**
 >A bus tour of Europe has been very successful. Due to an increase in the number of people that want to go on a tour, the tour company decided to increase the height of the bus. The new height of the bus is exactly N centimeters.
 But the tour’s route runs under a lot of bridges, and there is a chance that the bus will crash into one of these bridges. Can you find out if this will happen?
 The first line of the input contains the height of the bus and number of bridges under which the bus passes. The second line contains heights of these bridges.
