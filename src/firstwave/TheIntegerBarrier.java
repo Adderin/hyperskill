@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class TheIntegerBarrier {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int number;
-        int sum = 0;
+        int number, sum = 0;
         while (scanner.hasNext()) {
             number = scanner.nextInt();
             sum += number;
