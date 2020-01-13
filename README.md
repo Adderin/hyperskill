@@ -4,11 +4,17 @@ However, I forgot to initialize the readme, so some problems will be omitted.
 ## **Wave 1**
 
 #### **Branching statements → Bus tour**
->A bus tour of Europe has been very successful. Due to an increase in the number of people that want to go on a tour, the tour company decided to increase the height of the bus. The new height of the bus is exactly N centimeters.
-But the tour’s route runs under a lot of bridges, and there is a chance that the bus will crash into one of these bridges. Can you find out if this will happen?
-The first line of the input contains the height of the bus and number of bridges under which the bus passes. The second line contains heights of these bridges.
+>A bus tour of Europe has been very successful. Due to an increase in the number of people
+> that want to go on a tour, the tour company decided to increase the height of the bus. 
+>The new height of the bus is exactly N centimeters.
+But the tour’s route runs under a lot of bridges, and there is a chance that the bus will 
+>crash into one of these bridges. Can you find out if this will happen?
+The first line of the input contains the height of the bus and number of bridges under which 
+>the bus passes. The second line contains heights of these bridges.
 >
->You should output "Will not crash" if everything will be all right; otherwise, output "Will crash on bridge i" (where i is a number of a bridge) into which the bus will crash. If the height of a bridge equals the height of the bus, the bus will crash.
+>You should output "Will not crash" if everything will be all right; otherwise, output 
+>"Will crash on bridge i" (where i is a number of a bridge) into which the bus will crash. 
+>If the height of a bridge equals the height of the bus, the bus will crash.
 >
 >Sample Input 1:
 234 8
@@ -40,3 +46,32 @@ Will crash on bridge 2
 >
 >**Sample Output 1:**
 > 1 2 2 3 3 3 4
+
+#### **Branching statements → The integer barrier**
+
+>Write a program that reads a sequence of integer numbers in a loop and adds up all numbers. 
+>If a new number is equal to 0, the program must stop the loop and output the accumulated sum. 
+>When the sum is equal or exceeded **1000 (the barrier)**, the program should also stop and
+> output the value equal to **sum - 1000**.
+>
+> Note, the input can contain extra numbers. Just ignore them.
+>
+>**Sample Input 1:**
+> 800
+  101
+  102
+  300
+  0
+>
+>**Sample Output 1:**
+> 3
+>
+>**Sample Input 2:**
+> 103
+ 105
+ 109
+ 0
+ 1000
+ 
+>**Sample Output 2:**
+> 317
